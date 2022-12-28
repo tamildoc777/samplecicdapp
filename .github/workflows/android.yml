@@ -1,15 +1,10 @@
 name: Android CI
 
+
 on:
-    branches:
-      - 'main'
-      - 'release'
-      
   pull_request:
-    types:
-      - opened
     branches:
-      - 'release'
+      - release
 jobs:
   build:
 
