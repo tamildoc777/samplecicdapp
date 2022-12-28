@@ -3,6 +3,7 @@ name: Android TestCI
 
 on:
   pull_request:
+    types: [opened, reopened]
     branches:
       - release
       - develop
